@@ -1,0 +1,61 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ส่วนหัว */
+header {
+  background: #2d6cdf;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background: #1c3fa8;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* เนื้อหาแต่ละส่วน */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* การ์ดผลงาน */
+.project-card {
+  border-left: 4px solid #2d6cdf;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #f1f5ff;
+  border-radius: 6px;
+}
+
+/* ส่วนท้าย */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2d6cdf;
+  color: white;
+  margin-top: 2rem;
+}
